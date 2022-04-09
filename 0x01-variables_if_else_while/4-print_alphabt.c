@@ -19,5 +19,6 @@ int main(void)
 		else
 			putchar(i);
 	}
+	putchar(10);
 	return (0);
 }
