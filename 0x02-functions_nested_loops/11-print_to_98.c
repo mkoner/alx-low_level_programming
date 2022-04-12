@@ -2,7 +2,7 @@
 
 /**
  * print_to_98 - print natural numbers from n to 98
- *
+ *@n: given value
  * Return: Always 0.
  */
 void print_to_98(int n)
@@ -32,5 +32,6 @@ void print_to_98(int n)
 				_putchar(',');
 				_putchar(' ');
 			}
-			return (0);
+		}
+	}
 }
