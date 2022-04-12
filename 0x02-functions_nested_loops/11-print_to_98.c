@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_to_98 - print natural numbers from n to 98
@@ -19,7 +20,11 @@ void print_to_98(int n)
 				c++;
 		}
 		if (c > 2)
-			printf("%d, ",i);
+		{
+			printf("%d",i);
+			_putchar(',');
+			_putchar(' ');
+		}
 		c = 0;
 	}
 }
