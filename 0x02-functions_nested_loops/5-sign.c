@@ -2,8 +2,8 @@
 
 /**
  * print_sign - return the sign of an integer.
- * @n: given number 
- *
+ * @n: given number
+ * 
  * Return: Always 1 is positiv, -1 if negative or 0
  */
 
