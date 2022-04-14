@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _islower - check if lowercase char.
+ * _isupper - check if uppercase char.
  * @c: entered parameter
  *
  * Return: 1 or 0.
  */
 
-int _islower(int c)
+int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
 		return (1);
