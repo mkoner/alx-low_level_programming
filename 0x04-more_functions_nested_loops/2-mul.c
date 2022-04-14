@@ -5,7 +5,7 @@
  * @a: first operand
  * @b: second operand
  *
- * Return: 1 or 0.
+ * Return: axb.
  */
 
 int mul(int a, int b)
