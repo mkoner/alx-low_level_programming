@@ -1,2 +1,1 @@
-This repository is for learning C programming from ALX
-
+This repository is for learning low level programing with C
