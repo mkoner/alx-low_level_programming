@@ -21,7 +21,9 @@
 	{
 		printf("Value checked array[%u] = [%d]\n", i, array[i]);
 		if (value == array[i])
+        {
 			return (i);
+        }
 	}
 	return (-1);
  }
